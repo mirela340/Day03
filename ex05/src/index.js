@@ -1,10 +1,13 @@
 function main() {
     // Only change code bellow this line
-    console.log (`Hello World!`);
+   
+    x = 8;
+    
+  
     // Only change code above this line
-
-}
-
-main();
-
-module.exports = main;
+    return x;
+  }
+  
+  console.log(main());
+  
+  module.exports = main;
